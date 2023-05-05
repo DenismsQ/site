@@ -1,0 +1,152 @@
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h1_login {
+    font-family: Oswald-Medium;
+    font-size: 30px;
+    color: #43383e;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+}
+
+.login_input {
+    font-family: Oswald-Medium;
+    font-size: 16px;
+    color: #43383e;
+    line-height: 1.2;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 62px;
+    background: #fff;
+    border-radius: 31px;
+    border: none;
+    padding: 0 35px 0 35px;
+}
+
+.wrap-login {
+    width: 320px;
+    background: transparent;
+    border-radius: 0px;
+}
+
+.login_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 62px;
+    background-color: #43383e;
+    border-radius: 31px;
+    border: none;
+    font-family: Oswald-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.login-form {
+    width: 100%;
+    position: relative;
+}
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #e6e6e6;
+}
+.login-input-wrap {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 31px;
+    position: relative;
+    z-index: 1;
+}
+.login-button-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.header-nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .header-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header-nav .main {
+    font-weight: bold;
+  }
+  
+  .header-nav .login {
+    margin-left: 2em;
+  }
+
+  .header-nav .register {
+    margin-left: 15px;
+  }
+  .header-right{
+    display: flex;
+    justify-content: end;
+  }
+  /* Page styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .h1-welcome-title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .p-welcome-title {
+    line-height: 1.5;
+  }
+  
+  .article-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .article-btn:hover {
+    background-color: #555;
+  }
